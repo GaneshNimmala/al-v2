@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="./assets/css/common.css" />
+    <style>
+      body {
+        margin-top: 20px;
+      }
+      .rounded-circle {
+        border-radius: 50% !important;
+      }
+      img {
+        max-width: 100%;
+        height: auto;
+        vertical-align: top;
+      }
+
+      .sub-info {
+        font-weight: 600;
+        font-family: "Poppins", sans-serif;
+        color: #004975;
+      }
+
+      .display-30 {
+        font-size: 0.9rem;
+      }
+      .form-group {
+        margin: 20px;
+      }
+      h4 {
+        color: #004975;
+      }
+      .why-choose-us-cards {
+        position: relative;
+      }
+      .background-image {
+        position: absolute;
+        /* background: url("assets/img/homepage-bg.jpg"); */
+        /* background-color: rgba(137, 43, 226, 0.356); */
+        border-radius: 100px;
+        width: 100px;
+        height: 300px;
+        top: 380px;
+        left: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- ======= Header ======= -->
+    <header id="header" class="d-flex align-items-center header-transparent">
+      <div class="container-fluid">
+        <div class="row justify-content-center align-items-center">
+          <div
+            class="col-xl-11 d-flex align-items-center justify-content-between"
+          >
+            <!--  image logo -->
+            <a href="index.html" class="logo"
+              ><img
+                src="assets/img/assignment-linkers-logo.png"
+                alt="assignment-linkers-logo"
+                class="img-fluid"
+                width="100px"
+                height="190px"
+            /></a>
+
+            <nav id="navbar" class="navbar">
+              <ul>
+                <li>
+                  <a class="nav-link scrollto" href="">Home</a>
+                </li>
+                <li>
+                  <a class="nav-link scrollto" href="./about.html">About Us</a>
+                </li>
+                <li>
+                  <a class="nav-link scrollto" href="#services">Services</a>
+                </li>
+                <li>
+                  <a class="nav-link scrollto" href="#">Subjects</a>
+                </li>
+                <li>
+                  <a class="nav-link scrollto" href="#contact">Contact Us</a>
+                </li>
+                <li><a class="nav-link scrollto" href="#">Offers</a></li>
+                <li><a class="nav-link" href="#">Reviews</a></li>
+                <li><a class="nav-link" href="#">FAQ</a></li>
+                <li><a class="nav-link" href="#"> login/signup </a></li>
+                <li class="dropdown">
+                  <a href="#"
+                    ><span>Others</span> <i class="bi bi-chevron-down"></i
+                  ></a>
+                  <ul>
+                    <li><a href="#">Refund Policies</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Academic tools</a></li>
+                    <li><a href="#">Career</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <!-- <a class="nav-link scrollto Order" href="#">Order now</a> -->
+                  <button class="btn btn-success">Order now</button>
+                </li>
+              </ul>
+              <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav>
+            <!-- .navbar -->
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- End Header -->
+    <section class="pt-5">
+      <div class="container">
+        <div class="wrap1">
+          <div class="text-center mb-2-8 mb-lg-6">
+            <h2 class="display-18 display-md-16 display-lg-14 font-weight-700">
+              Why Choose
+              <strong class="text-primary font-weight-700">Us</strong>
+            </h2>
+          </div>
+          <div class="row justify-content-center why-choose-us-cards">
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+              <div class="text-center">
+                <img
+                  src="./assets/img/why-to-choose-us-images/customer-support.png"
+                  alt="Image 1"
+                  class="img-fluid rounded-circle mb-2"
+                  style="width: 80px; height: 80px"
+                />
+                <h4 style="color: #004975">Customer support</h4>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+              <div class="text-center">
+                <img
+                  src="./assets/img/why-to-choose-us-images/expertise.png"
+                  alt="Image 1"
+                  class="img-fluid rounded-circle mb-2"
+                  style="width: 80px; height: 80px"
+                />
+                <h4>Expertise</h4>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+              <div class="text-center">
+                <img
+                  src="./assets/img/why-to-choose-us-images/offers.png"
+                  alt="Image 1"
+                  class="img-fluid rounded-circle mb-2"
+                  style="width: 80px; height: 80px"
+                />
+                <h4>Offers</h4>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+              <div class="text-center">
+                <img
+                  src="./assets/img/why-to-choose-us-images/ontime-delivery.png"
+                  alt="Image 1"
+                  class="img-fluid rounded-circle mb-2"
+                  style="width: 80px; height: 80px"
+                />
+                <h4>On time delivery</h4>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+              <div class="text-center">
+                <img
+                  src="./assets/img/why-to-choose-us-images/order-delivered.png"
+                  alt="Image 1"
+                  class="img-fluid rounded-circle mb-2"
+                  style="width: 80px; height: 80px"
+                />
+                <h4>Order Delivered</h4>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+              <div class="text-center">
+                <img
+                  src="./assets/img/why-to-choose-us-images/phd-writers.png"
+                  alt="Image 1"
+                  class="img-fluid rounded-circle mb-2"
+                  style="width: 80px; height: 80px"
+                />
+                <h4>PhD Writers</h4>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+              <div class="text-center">
+                <img
+                  src="./assets/img/why-to-choose-us-images/privacy_security.png"
+                  alt="Image 1"
+                  class="img-fluid rounded-circle mb-2"
+                  style="width: 80px; height: 80px"
+                />
+                <h4>privacy Security</h4>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+              <div class="text-center">
+                <img
+                  src="./assets/img/why-to-choose-us-images/rating.png"
+                  alt="Image 1"
+                  class="img-fluid rounded-circle mb-2"
+                  style="width: 80px; height: 80px"
+                />
+                <h4>Rating</h4>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+              <div class="text-center">
+                <img
+                  src="./assets/img/why-to-choose-us-images/Refund-Guaranteed.png"
+                  alt="Image 1"
+                  class="img-fluid rounded-circle mb-2"
+                  style="width: 80px; height: 80px"
+                />
+                <h4>Refund Guaranteed</h4>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+              <div class="text-center">
+                <img
+                  src="./assets/img/why-to-choose-us-images/satisfied-students.png"
+                  alt="Image 1"
+                  class="img-fluid rounded-circle mb-2"
+                  style="width: 80px; height: 80px"
+                />
+                <h4>Satisfied Students</h4>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+              <div class="text-center">
+                <img
+                  src="./assets/img/why-to-choose-us-images/unlimited-revision.png"
+                  alt="Image 1"
+                  class="img-fluid rounded-circle mb-2"
+                  style="width: 80px; height: 80px"
+                />
+                <h4>unlimited revision</h4>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+              <div class="text-center">
+                <img
+                  src="./assets/img/why-to-choose-us-images/affordable.png"
+                  alt="Image 12"
+                  class="img-fluid rounded-circle mb-2"
+                  style="width: 80px; height: 80px"
+                />
+                <h4>Affordable</h4>
+              </div>
+            </div>
+
+            <div class="background-image"></div>
+          </div>
+        </div>
+
+        <div class="wrap2 pt-5 pb-5">
+          <div class="container">
+            <div class="text-center mb-2-8 mb-lg-6">
+              <h2
+                class="display-18 display-md-16 display-lg-14 font-weight-700"
+              >
+                What we need from our
+                <strong class="text-primary font-weight-700">Clients</strong>
+              </h2>
+            </div>
+            <div class="row align-items-center">
+              <div class="col-sm-6 col-lg-4 mb-2-9 mb-sm-0">
+                <div class="pr-md-3">
+                  <div class="text-center text-sm-right mb-2-9">
+                    <div class="mb-4">
+                      <img
+                        src="./assets/img/whatweneedfromclients/appreciation.png"
+                        alt="..."
+                        class="rounded-circle"
+                        style="
+                          height: 80px;
+                          width: 80px;
+                          background-color: coral;
+                        "
+                      />
+                    </div>
+                    <h4 class="sub-info">Appreciation</h4>
+                  </div>
+                  <div class="text-center text-sm-right">
+                    <div class="mb-4">
+                      <img
+                        src="./assets/img/whatweneedfromclients/graduation.png"
+                        alt="..."
+                        class="rounded-circle"
+                        style="
+                          height: 80px;
+                          width: 80px;
+                          background-color: darkorchid;
+                        "
+                      />
+                    </div>
+                    <h4 class="sub-info">Graduation</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 d-none d-lg-block">
+                <div class="why-choose-center-image">
+                  <img
+                    src="./assets/img/whatweneedfromclients/client-satisfaction-new.png"
+                    alt="..."
+                    class="rounded-circle"
+                    style="background-color: antiquewhite"
+                  />
+                  <h4 class="sub-info text-center mt-3">Client Satisfaction</h4>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-4">
+                <div class="pl-md-3">
+                  <div class="text-center text-sm-left mb-2-9">
+                    <div class="mb-4">
+                      <img
+                        src="./assets/img/whatweneedfromclients/Refer-others.png"
+                        alt="..."
+                        class="rounded-circle"
+                        style="
+                          width: 80px;
+                          height: 80px;
+                          background-color: chocolate;
+                        "
+                      />
+                    </div>
+                    <h4 class="sub-info">Refer Others</h4>
+                  </div>
+
+                  <div class="text-center text-sm-left">
+                    <div class="mb-4">
+                      <img
+                        src="./assets/img/whatweneedfromclients/Top-scores.png"
+                        alt="..."
+                        class="rounded-circle"
+                        style="
+                          width: 100px;
+                          height: 100px;
+                          background-color: crimson;
+                        "
+                      />
+                    </div>
+                    <h4 class="sub-info">Top Scores</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="wrap3 pt-5 pb-5">
+          <section id="get-a-free-quote-now">
+            <div class="container">
+              <header class="section-header text-center">
+                <h2
+                  class="display-18 display-md-16 display-lg-14 font-weight-700"
+                >
+                  Get a Free
+                  <strong class="text-primary font-weight-700">Quote</strong>
+                </h2>
+              </header>
+
+              <div class="row justify-content-center">
+                <div class="col-lg-8">
+                  <form id="quote-form">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <input
+                            type="text"
+                            class="form-control"
+                            id="name"
+                            placeholder="Your Name"
+                            required
+                          />
+                        </div>
+                        <div class="form-group">
+                          <input
+                            type="email"
+                            class="form-control"
+                            id="email"
+                            placeholder="Your Email"
+                            required
+                          />
+                        </div>
+                        <div class="form-group">
+                          <input
+                            type="tel"
+                            class="form-control"
+                            id="phone"
+                            placeholder="Your Phone Number"
+                          />
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <select
+                            name="subject"
+                            id="subject"
+                            class="form-control"
+                            required
+                          >
+                            <option value="#">Choose a Subject</option>
+                            <option value="Accounting">Accounting</option>
+                            <option value="Management">Management</option>
+                            <option value="Law">Law</option>
+                            <option value="Economics">Economics</option>
+                            <option value="Nursing">Nursing</option>
+                            <option value="IT">IT</option>
+                            <option value="Statistics">Statistics</option>
+                            <option value="Finance">Finance</option>
+                            <option value="B.Tech">B.Tech</option>
+                            <option value="Other">Other</option>
+                          </select>
+                        </div>
+                        <div class="form-group">
+                          <input
+                            type="number"
+                            class="form-control"
+                            id="wordcount"
+                            placeholder="Wordcount"
+                          />
+                        </div>
+                        <div class="form-group">
+                          <input
+                            type="text"
+                            class="form-control"
+                            id="university"
+                            placeholder="Your University"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <textarea
+                        class="form-control"
+                        rows="4"
+                        id="description"
+                        placeholder="Assignment Description"
+                      ></textarea>
+                    </div>
+                    <div class="form-group text-center">
+                      <button type="submit" class="btn btn-primary btn-lg">
+                        Get Free Quote
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <section id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-3 footer-links">
+            <header class="section-header">
+              <h4>Our Policies</h4>
+            </header>
+            <div class="our-policies">
+              <ul>
+                <li>
+                  <i class="bi bi-chevron-right"></i>
+                  <a href="#">Privacy Policy</a>
+                </li>
+                <li>
+                  <i class="bi bi-chevron-right"></i>
+                  <a href="#">Terms & Conditions</a>
+                </li>
+                <li>
+                  <i class="bi bi-chevron-right"></i>
+                  <a href="#">Payment & Secured Policy</a>
+                </li>
+                <li>
+                  <i class="bi bi-chevron-right"></i>
+                  <a href="#">Refund Policy</a>
+                </li>
+                <li>
+                  <i class="bi bi-chevron-right"></i>
+                  <a href="#">Copyright Policy</a>
+                </li>
+                <li>
+                  <i class="bi bi-chevron-right"></i>
+                  <a href="#">Fair use policy</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-6 footer-contact">
+            <header class="section-header">
+              <h4>Contact Us</h4>
+            </header>
+            <div class="social-links">
+              <a href="#" class="whatsapp"
+                ><img
+                  src="./assets/img/socialmedialogos/Digital_Stacked_Green.png"
+                  alt="whatsapp"
+                  width="30px"
+              /></a>
+              <a href="#" class="instagram">
+                <img
+                  src="./assets/img/socialmedialogos/Instagram_Glyph_Gradient.png"
+                  alt="instagram logo"
+                  width="30px"
+              /></a>
+              <a href="#" class="facebook"
+                ><img
+                  src="./assets/img/socialmedialogos/Facebook_Logo_Primary.png"
+                  alt="facebook logo"
+                  width="30px"
+              /></a>
+              <a href="#" class="linkedin"
+                ><img
+                  src="./assets/img/socialmedialogos/LI-In-Bug.png"
+                  alt="linkdin"
+                  width="30px"
+              /></a>
+              <a href="#" class="twitter"
+                ><img
+                  src="./assets/img/socialmedialogos/logo-black.png"
+                  alt="twitter logo"
+                  width="30px"
+              /></a>
+
+              <a href="#" class="youtube"
+                ><img
+                  src="./assets/img/socialmedialogos/yt_logo_rgb_light.png"
+                  alt="youtube logo"
+                  width="30px"
+              /></a>
+            </div>
+            <div class="row contact-info">
+              <div class="col-6">
+                <div class="contact-address">
+                  <h6>Address:</h6>
+                  <address style="font-style: italic">
+                    MIG 797, <br />sitamahalakshmi apartments, <br />Ground
+                    floor back side, <br />
+                    near bhuvana vijayam grounds,<br />
+                    KPHB phase 2 , pincode 500072.
+                  </address>
+                </div>
+                <div class="contact-phone">
+                  <h6>Phone Number:</h6>
+                  <p><a href="tel:+91 7893263263">+91 7893263263</a></p>
+                </div>
+                <div class="contact-email">
+                  <h6>Email:</h6>
+                  <p>
+                    <a href="mailto:info@example.com">info@example.com</a>
+                  </p>
+                </div>
+              </div>
+              <div class="col-6">
+                <form action="#">
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      name="name"
+                      class="form-control"
+                      id="name"
+                      placeholder="Your Name"
+                      required
+                    />
+                  </div>
+                  <div class="form-group">
+                    <input
+                      type="email"
+                      class="form-control"
+                      name="email"
+                      id="email"
+                      placeholder="Your Email"
+                      required
+                    />
+                  </div>
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      class="form-control"
+                      name="subject"
+                      id="subject"
+                      placeholder="Subject"
+                      required
+                    />
+                  </div>
+                  <div class="form-group">
+                    <textarea
+                      class="form-control"
+                      name="message"
+                      rows="5"
+                      placeholder="Message"
+                      required
+                    ></textarea>
+                  </div>
+                  <div class="text-center">
+                    <button type="submit">Send Message</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 footer-globalpresence">
+            <header class="section-header">
+              <h4>Global Reach</h4>
+            </header>
+            <div class="container">
+              <img
+                src="./assets/img/worldmap.png"
+                alt="our locations in world"
+                style="width: 250px; height: 400px"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="paymentsecure-adv">
+        <div class="row">
+          <div class="col-3"></div>
+          <div class="col-6">
+            <div class="" role="">
+              <span style="color: rgb(16, 224, 109); font-size: 18px"
+                >100% Secure Payment</span
+              >
+              <span
+                ><img
+                  src="./assets/img/paymentcardsimage.png"
+                  alt="paymentmethods image"
+                  width="400px"
+              /></span>
+            </div>
+          </div>
+          <div class="col-3"></div>
+        </div>
+        <div class="row"></div>
+      </div>
+      <div class="container copyright"></div>
+    </section>
+  </body>
+</html>
